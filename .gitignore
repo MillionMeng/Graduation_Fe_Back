@@ -3,3 +3,10 @@ node_modules
 dist
 *.log
 
+#idea
+.idea/
+/idea/
+/idea/
+*.ipr
+*.iml
+*.iws
