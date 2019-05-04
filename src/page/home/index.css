@@ -1,0 +1,8 @@
+.color-box {
+    display: block;
+    height: 160px;
+    text-align: center;
+    padding: 20px 0;
+    opacity: .9;
+    transition: all .3s;
+}

@@ -170,7 +170,7 @@ p {
 }
 
 .panel-default > .panel-heading {
-    color: #000;
+    color: #f0ad4e;
     border-color: #FFF;
     font-weight: bold;
     background: #FFFFFF;
@@ -556,7 +556,7 @@ ul.nav.nav-second-level.collapse.in {
 }
 
 .top-navbar {
-    background: #fff;
+    background: #ffaa33;
     border-bottom: none;
 }
 
