@@ -126,6 +126,22 @@ class Product {
             }
         })
     }
+    //新建分类
+    saveCategory(category){
+        return _arvin.request({
+            type: 'post',
+            url: 'http://localhost:8080/category/add',
+            data: category
+        })
+    }
+    // 修改分类类名称
+    updateCategoryName(category){
+        return _arvin.request({
+            type    : 'post',
+            url     : 'http://localhost:8080/category/setname',
+            data    : category
+        });
+    }
 
 
 

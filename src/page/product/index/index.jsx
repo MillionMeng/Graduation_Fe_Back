@@ -93,7 +93,6 @@ class ProductList extends React.Component {
                 <PageTitle title="商品列表">
 
                     <div className="page-header-right">
-
                         <Link to="/product/save" className="btn btn-warning">
                             <i className="fa fa-plis"></i>
                             <span>添加商品</span>
