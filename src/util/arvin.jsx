@@ -48,9 +48,12 @@ class Util{
             result      = queryString.match(reg);
         return result ? decodeURIComponent(result[2]) : null;
     }
+    successTips(successMsg){
+        alert(successMsg || '成功~');
+    }
     //错误提示
     errTips(errMsg){
-        alert(errMsg || '错误')
+        alert(errMsg || '错误~');
     }
     // 本地存储
     setStorage(name,data){
