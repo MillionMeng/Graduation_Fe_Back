@@ -9,7 +9,7 @@ class Pagination extends React.Component{
     }
     render(){
         return(
-          <div className="row">...
+          <div className="row">
               {/*current={this.props.current}*/
               /*结构函数*/}
             <RcPagination {...this.props}

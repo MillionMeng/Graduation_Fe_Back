@@ -51,14 +51,14 @@ class NavSide extends React.Component{
 
 
                         <li className="active">
-                            <Link to="/order">
+                            <Link to="/order/index">
                                 <i className="fa fa-check-square-o"></i>
                                 <span>订单</span>
                                 <span className="fa arrow"></span>
                             </Link>
                             <ul className="nav nav-second-level collapse in">
                                 <li>
-                                    <NavLink to="/order" activeClassName="active-menu">订单管理</NavLink>
+                                    <NavLink to="/order/index" activeClassName="active-menu">订单管理</NavLink>
                                 </li>
                                 </ul>
                         </li>
