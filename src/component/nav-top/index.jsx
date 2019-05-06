@@ -2,6 +2,7 @@ import React    from 'react';
 import {Link}   from 'react-router-dom';
 import Util  from 'util/arvin.jsx';
 import User from 'service/user-service.jsx'
+import './index.scss'
 
 const _arvin = new Util();
 const _user = new User();
@@ -27,7 +28,7 @@ class NavTop extends React.Component{
         return(
             <div className="navbar navbar-default top-navbar"/* role="navigation"*/>
                 <div className="navbar-header">
-                    <Link className="navbar-brand" to="index.html"><b>IBUY</b></Link>
+                    <Link className="navbar-brand" to="/"><b>IBUY</b></Link>
                 </div>
 
                 <ul className="nav navbar-top-links navbar-right">

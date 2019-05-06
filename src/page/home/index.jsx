@@ -38,7 +38,7 @@ class Home extends React.Component{
 
 
                     <div className="col-md-4">
-                        <Link to="/order" className="color-box green">
+                        <Link to="/order/index" className="color-box green">
                             <p className="count">{this.state.orderCount}</p>
                             <p className="desc">
                                 <i className="fa fa-check-square-o"></i>
@@ -65,6 +65,17 @@ class Home extends React.Component{
                             </p>
                         </Link>
                     </div>
+
+
+                   {/* <div className="col-md-4">
+                        <Link to="/order" className="color-box  blue">
+                            <p className="count">{this.state.productCount}</p>
+                            <p className="desc">
+                                <i className="fa fa-list"></i>
+                                <span>今日订单数量</span>
+                            </p>
+                        </Link>
+                    </div>*/}
 
 
                 </div>
